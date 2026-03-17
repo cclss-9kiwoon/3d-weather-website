@@ -28,7 +28,7 @@ jobs:
 
       # Build Weather project (v1)
       - name: Install Weather dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build Weather
         run: npm run build
@@ -36,7 +36,7 @@ jobs:
       # Build Sunset project (v2)
       - name: Install Sunset dependencies
         working-directory: sunset-project
-        run: npm ci
+        run: npm install
 
       - name: Build Sunset
         working-directory: sunset-project
