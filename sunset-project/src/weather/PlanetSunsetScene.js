@@ -493,7 +493,7 @@ export class PlanetSunsetScene extends WeatherScene {
     head.position.y = 0.55;
     figureGroup.add(head);
 
-    // Crown (hidden until sunset count >= 4)
+    // Crown (hidden until sunset count >= 44)
     const crownGroup = new THREE.Group();
     const crownBase = new THREE.Mesh(
       new THREE.CylinderGeometry(0.10, 0.13, 0.06, 16),
