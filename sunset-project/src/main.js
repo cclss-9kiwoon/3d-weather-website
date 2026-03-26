@@ -170,9 +170,9 @@ class App {
         ? '번째 해를 바라보는 중'
         : ' sunsets watched';
     }
-    // Show crown at 4+ sunsets
+    // Show crown at 44+ sunsets
     if (this.planetScene && this.planetScene._crown) {
-      this.planetScene._crown.visible = this._sunsetCount >= 4;
+      this.planetScene._crown.visible = this._sunsetCount >= 44;
     }
   }
 
